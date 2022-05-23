@@ -1,12 +1,30 @@
-array = ['E1', 'E55555555', 'E22', 'E3222', 'E444444']
-	l = array.length
+// Write a function that returns the string of shortest length if an array is passed a parameter
+
+
+array = ['john', 'Joseph', 'Smith', 'Katy Perry', 'Robert Bob']
+l = array.length
 elength = []
-for (i = 0; i < l; i++) {
-	elength[i] = array[i].length
-	  if (elength[i+1] > elength[i]) {
-		elength[i] = elength[i+1]
-	   }console.log(elength[i])
-	} 
+function elementLength() {
+	for (i = 0; i < l; i++) {
+		elength[i] = array[i].length
+		
+	} return elength
+}
+function elementPosition() {
+	Min = Math.min(...elength)
+	position=elength.indexOf(Min)
+	return position
+}
+
+function elementName() {
+	name = array[position]
+	return name
+
+}
+elementLength()
+elementPosition()
+console.log(elementName())
+
 
 
 
