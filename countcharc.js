@@ -1,3 +1,5 @@
+// Write a function that counts the nuber of characters in a string
+
 function countchar(string) {
     var l = string.length
     let count = 0;
@@ -10,7 +12,7 @@ function countchar(string) {
 
 }
 
-console.log(countchar("Nikilkumaran"))
+console.log(countchar("Javascript"))
 
 
 
