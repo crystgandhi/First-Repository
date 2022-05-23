@@ -1,3 +1,5 @@
+// Write a function that accepts an two numbers and return the largest number of the two
+
 function largest(x, y) {
     if (x > y) {
         return x
