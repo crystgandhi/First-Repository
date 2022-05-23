@@ -1,4 +1,4 @@
-// Write a function that returns the logest string it two strings are given as input parameters
+// Write a function that returns the longest string it two strings are given as input parameters
 
 function longestString(string1, string2) {
     var l1 = string1.length
